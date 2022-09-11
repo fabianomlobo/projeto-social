@@ -47,4 +47,36 @@ main{
     
 }
 
+#redes-sociais{
+    text-align: right;
+    padding: 25px;
+    margin-right: 10px;
+    
+    
+}
+
+#redes-sociais a{
+    
+}
+
+#redes-sociais img{    
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.404);
+    box-sizing: border-box; /*Faz a borda fazer parte da caixa e não empurra os conteúdos externos quando usar o :hover */
+    
+}
+
+#redes-sociais img:hover{
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.568);
+    transform: translate(-5px, -5px);
+    transition: 200ms;
+    
+}
+
+
+
 
